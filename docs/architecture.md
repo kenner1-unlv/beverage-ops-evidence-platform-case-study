@@ -25,8 +25,7 @@ The executive sees which business actions the connected sources support: stock
 reported, cases shipped, cases invoiced, exceptions reviewed, and planning
 signals needing judgment. The operator can inspect what was observed, what was
 matched, what was missing, and which selected period or snapshot produced the
-result. A successful
-match never substitutes for a source-coverage assessment.
+result. A successful match never substitutes for a source-coverage assessment.
 
 The same accepted evidence also supports weekly, month-to-date, and
 year-to-date invoice reporting with prior-period comparisons. Source coverage
