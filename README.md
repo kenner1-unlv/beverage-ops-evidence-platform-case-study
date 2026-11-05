@@ -91,6 +91,21 @@ movement and invoice evidence to geography when a valid destination is known.
 *Synthetic capture. Business entities and values are fictional; application
 branding and US geography are retained.*
 
+## Regions, product mix, and standard costs
+
+Operators assign states to regions; unassigned and unknown destinations remain
+visible. The regional view can compare physical (flat) cases, confirmed 9L
+equivalents, or eligible product-invoice revenue. Product mix shows each
+family's share of shipment cases beside its share of invoice dollars, then
+drills into region and state. Different units and shipment/invoice dates can
+produce different shares without either chart being wrong.
+
+Complete standard-cost profiles by family and bottle size support estimated
+inventory value and standard COGS, gross profit, and margin on eligible invoice
+cases. Missing costs reduce disclosed coverage rather than becoming zero.
+These are operational standard-cost estimates, not accounting income or cash.
+See the [fictional commercial-analysis example](docs/commercial-analysis.md).
+
 ## Inventory planning from observed rates
 
 The planning view groups outbound sales movements and outbound transfers by
