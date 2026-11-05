@@ -28,6 +28,11 @@ matched, what was missing, and which selected period or snapshot produced the
 result. A successful
 match never substitutes for a source-coverage assessment.
 
+The same accepted evidence also supports weekly, month-to-date, and
+year-to-date invoice reporting with prior-period comparisons. Source coverage
+and unresolved exceptions remain visible in readiness and previews. Automatic
+report delivery is disabled; the case study does not claim unattended sending.
+
 Warehouse-specific product codes remain intact in source evidence. Reviewed
 family and size assignments can support a commercial product view across code
 variants, while the original labels stay available for audit. A sales match

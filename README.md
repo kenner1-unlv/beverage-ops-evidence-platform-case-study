@@ -15,9 +15,10 @@ split quantities that the business needed to review together as one configured
 product family and size. Every Monday, the owner and another internal executive
 spent about an hour on an inventory-reconciliation call after a warehouse tally
 and manual comparison with reported accounting inventory. As of November 5,
-2026, the owner reports roughly six weeks of using the new workflow. Current
-file preparation and review time is still being confirmed,
-so this case study does not yet claim a measured net labor saving or annual ROI.
+2026, the owner reports that this Monday call is gone after roughly six weeks
+of using the new workflow. That removes an approximately one-hour weekly
+meeting for two internal participants. File preparation and review still take
+time, so this case study does not claim a measured net labor saving or annual ROI.
 
 The owner now downloads four recurring exports and reviews them through the
 application instead of assembling a variable set of per-product sales files
@@ -104,6 +105,16 @@ heuristics. They have not been established by backtesting against operating
 outcomes. The method does not model seasonality, future receipts, routing, or
 safety stock. See the [fictional calculation and limits](docs/inventory-planning.md).
 
+## Weekly sales reporting
+
+The owner describes a separate weekly sales-reporting workflow that previously
+required another set of downloads, spreadsheet imports, and pivot-chart
+preparation. The connected application now presents weekly, month-to-date,
+and year-to-date invoice results with comparison periods so the owner can
+spend that review on analysis. This is an owner-reported process change; no
+report-preparation minutes have been measured. Report previews and readiness
+checks exist, while automatic report email delivery remains disabled.
+
 ## Development workflow
 
 The owner defined the operational questions, evidence semantics, acceptance
@@ -131,9 +142,9 @@ initial package.
 
 - **Shown:** source-to-result reasoning, visible exceptions, dated cloud-demo
   architecture, and a historical-rate inventory-planning method.
-- **Owner-reported:** the former hour-long Monday call and roughly six weeks of
-  use. Current weekly preparation/review time is being confirmed before a net
-  time-saving claim is published.
+- **Owner-reported:** the hour-long Monday call is gone after roughly six weeks
+  of use; separate weekly Excel and pivot preparation was removed. Total labor
+  saved across both workflows has not been measured.
 - **Not claimed:** complete source coverage from a match percentage, cash from
   invoice revenue, a validated stockout date, production cloud readiness, or
   current live availability of the historical AWS deployment.
